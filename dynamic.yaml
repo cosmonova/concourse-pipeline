@@ -1,10 +1,10 @@
 pipelines:
-  - name: test-pipeline
-    config_file: pipeline.yaml
-    exposed: true
-    team: main
-    vars_files:
-      - config.yaml
-    vars:
-      my_var: "foo"
-      my_complex_var: {abc: 123}
+- name: test-pipeline
+  config_file: pipeline-templates/pipeline.yaml
+  exposed: true
+  team: main
+  vars_files:
+    - pipeline-templates/config.yaml
+  vars:
+    my_var: "foo"
+    my_complex_var: {abc: 123}
