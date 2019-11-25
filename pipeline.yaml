@@ -1,3 +1,5 @@
+meta:
+  name: ((name))
 jobs:
   - name: job
     plan:
