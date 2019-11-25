@@ -1,0 +1,6 @@
+---
+pipelines:
+- name: my-pipeline
+  team: main
+  config_file: meta-pipeline/pipeline.yml
+  unpaused: true
