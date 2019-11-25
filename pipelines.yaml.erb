@@ -1,6 +1,6 @@
 ---
 pipelines:
-- name: my-pipeline
+- name: my-pipeline-<%= branch_name %>
   team: main
   config_file: meta-pipeline/pipeline.yaml
   unpaused: true
