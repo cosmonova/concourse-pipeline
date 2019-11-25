@@ -1,3 +1,4 @@
+---
 pipelines:
 - name: test-pipeline
   config_file: pipeline-templates/pipeline.yaml
